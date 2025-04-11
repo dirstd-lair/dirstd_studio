@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/image/photo_2024-06-23_12-46-49.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
     <title>Dirstd Studio | Разработка чат-ботов</title>
 </head>
 <body>
@@ -19,7 +22,37 @@
                 <a href="/register.html">Sigh In</a>
              </div>
             </div>
-         </header>
+    </header>
+    <div class="font-app">
+        <div class="app ">
+            <div class="exit">
+                <div class="cn-bth-close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+           <div class="wrapper-app">
+            <div class="title">Заполните заявку</div>
+            <form class="container_form" action="#" method="post">
+                <div class="form_">
+                    <label for="telegram">Контактная информация</label>
+                    <input type="text" id="telegram" name="telegram" placeholder="Пример: Ваш Telegram" required>
+                </div>
+                <div class="form_">
+                    <label for="phone">Номер телефона</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ваш номер телефона" required>
+                </div>
+                <div class="form_">
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+            <div class="pol">
+                <p>Нажимая на кнопку, вы подтверждаете, что приняли <a href='/'>пользовательское соглашение.</a></p>
+            </div>
+           </div> 
+        </div>
+    </div>
+    
          <div class="block-res"></div>
         <div class="start-main">
          <div class="wrapper-main">
@@ -29,7 +62,7 @@
                      <h1 class="title">Разработка чат-ботов</h1>
                      <span class="description">Проффесиональная разработка<br> ботов любой сложности в Telegram</span>
                      <div class="button-container">
-                         <a href="">Консультация</a>
+                         <a href="" class="cons-p">Консультация</a>
                      </div>
                  </div>
                  <div class="image-container">
@@ -87,5 +120,6 @@
         </section>
      </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
