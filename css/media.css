@@ -1,0 +1,64 @@
+@media screen and (max-width: 767px) {
+    .logo > h1 {
+      font-size: 1.4em;
+    }
+
+    .wrapper-header > .logo > .circle {
+      width: 30px;
+      height: 30px;
+    }
+
+    .wrapper-main > .content-block > .card > .text-container > h1 {
+      font-size: 1.9em;
+    }
+
+    .wrapper-main > .content-block > .card > .text-container > span {
+      font-size: 1em;
+    }
+
+    .wrapper-main > .content-block > .card > .text-container > span > br {
+      display: none;
+    }
+
+    .wrapper-main > .content-block > .card > .text-container > .button-container > a {
+      font-size: 0.95em;
+      padding: 15px 15px 15px 15px;
+    }
+
+    .container-card-info {
+      grid-template-columns: 1fr;
+    }
+
+    .wrapper-header > .containe-bht-navigation > a {
+      padding: 10px 30px 10px 30px;
+    }
+
+    .container-card-info > .card > .button-url-container > a {
+      padding: 15px 40px 15px 40px;
+    }
+
+    .block-res {
+      position: relative;
+      height: 82px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper-main > .content-block > .card > .text-container > .button-container > a {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .start-main {
+    height: auto;
+  }
+
+  .wrapper-header > a {
+    scale: 0.8;
+  }
+
+  .logo > h1 {
+    font-size: 1.2em;
+  }
+}
