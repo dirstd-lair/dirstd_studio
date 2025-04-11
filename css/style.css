@@ -309,7 +309,7 @@ html {
   max-height: 500px;
   background-color: #212020;
   border-radius: 10px;
-  display: none; /* Скрываем изначально */
+  display: none;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -429,7 +429,7 @@ html {
   font-weight: bold;
   font-size: 0.9em;
   letter-spacing: 1px;
-  padding-left: 5px;
+  padding-left: 10px;
   color: #FFF;
 }
 
