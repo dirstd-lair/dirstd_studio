@@ -49,7 +49,7 @@ body {
 .wrapper-header > .containe-bht-navigation > a {
   padding: 15px 45px 15px 45px;
   background-color: #EECC1C;
-  border-radius: 15px;
+  border-radius: 10px;
 
   font-family: 'Montserrat';
   font-weight: bold;

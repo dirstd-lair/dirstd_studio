@@ -1,11 +1,11 @@
 @media screen and (max-width: 767px) {
     .logo > h1 {
-      font-size: 1.4em;
+      font-size: 1.3em;
     }
 
     .wrapper-header > .logo > .circle {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
     }
 
     .wrapper-main > .content-block > .card > .text-container > h1 {
@@ -30,7 +30,7 @@
     }
 
     .wrapper-header > .containe-bht-navigation > a {
-      padding: 10px 30px 10px 30px;
+      padding: 10px 20px 10px 20px;
     }
 
     .container-card-info > .card > .button-url-container > a {
