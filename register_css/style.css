@@ -150,6 +150,7 @@ body {
   background-color: #EECC1C;
   width: 90%;
   height: 40px;
+  cursor: pointer;
 }
 
 .content > .wrapper-content > .regitster > .pol {
